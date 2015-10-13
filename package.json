@@ -1,0 +1,17 @@
+{
+  "name": "intl-string-format-spec",
+  "version": "1.0.0-pre-draft",
+  "description": "Intl.StringFormat API Specification [Draft]",
+  "scripts": {
+    "build": "ecmarkup spec/index.html index.html",
+    "watch": "ecmarkup --watch spec/index.html index.html"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caridy/intl-string-format-spec.git"
+  },
+  "devDependencies": {
+    "ecmarkup": "latest"
+  }
+}
